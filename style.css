@@ -1,7 +1,7 @@
 :root {
-    --bg-color: #6F4E37;
-    --primary-color: #ECB176;
-    --secundary-color: #FED8B1;
+    --bg-color: #0e0e1c;
+    --primary-color: #3e3d49;
+    --secundary-color: #79747d;
     --font: Nunito Sans;
 }
 body {
@@ -58,6 +58,6 @@ footer {
 }
 span{
     font-weight: bold;
-    color: white ;
+    color: #8551b6 ;
     
 }

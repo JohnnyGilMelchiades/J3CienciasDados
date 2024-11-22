@@ -11,7 +11,7 @@ async function vizualizarinformacoesGlobais() {
   const porcentagemConectada = ((pessoasNecessitamTransporte / trabalhadoresNoMundo) * 100).toFixed(2)
 
 
-  const paragrafo = document.createElement('p')
+  const paragrafo = document.createElement('')
   paragrafo.classList.add('graficos-container__texto')
   paragrafo.innerHTML = `No mundo existem <span>${dados.total_pessoas_mundo}</span> de pessoas, das quais <span>${dados.total_trabalhadores_mundo}</span> são trabalhadores e desses, <span>${dados.total_pessoas_que_necessitam_transporte_para_trabalho}</span> utilizam algum tipo de transporte para ir ao trabalho, levando um tempo médio de deslocamento de <span> ${dados.tempo_medio_deslocamento_para_trabalho} </span> minutos.`
 
